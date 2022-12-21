@@ -49,7 +49,7 @@
 ## Sobre o Projeto
 
 <div align="center">
-<img src= width="500px">
+<img src="" width="500px">
 
 </div>
 <br/>
