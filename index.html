@@ -1,15 +1,64 @@
-<!DOCTYPE html>
+<DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="App/Css/styles.css">
 
         <title>Responsive Login</title>
     </head>
     <body>
+
+        <div class="container">
+            <div class="login_content">
+                <img src="App/Img/bg-login.png" alt="login image" class="login__img">
+
+                <form action="" class="login__form">
+                    <div>
+                        <h1 class="login_tittle">
+                            <span>Bem vindo</span>
+                        </h1>
+                        <p class="login__description">
+                             Por favor faça login para continuar.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="login__inputs">
+                            <div>
+                                <label for="" class="login__label">Email</label>
+                                <input type="email" placeholder="Entre com seu endereço de e-mail" required class="login__input">
+                            </div>
+            
+                            <div>
+                                <label for="" class="login__label">Senha</label>
+                                <div class="login__box">
+                                     <input type="password" placeholder="Entre com sua senha" required class="login__input" id="input-pass">
+                                     <i class="ri-eye-off-line login__eye" id="input--icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="login__check">
+                        <input type="checkbox" class="login__check-input">
+                        <label for="" class="login__check-label">Lembre-me</label>
+                    </div>
+                    
+                    <div>
+                        <div class="login__buttons">
+                            <button class="login__button">Entrar</button>
+                            <button class="login__button login__button-ghost">Inscrever-se</button>
+                        </div>
+
+                        <a href="#" class="login__forgot">Esqueceu a senha?</a>  
+                    </div>
+                </form>
+            </div>
+        </div>
+
         <script src="assets/js/main.js"></script>
     </body>
 </html>
