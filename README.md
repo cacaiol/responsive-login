@@ -57,10 +57,6 @@
            A representação de uma tela de login responsiva.  
 
 
-### Construído com
-
-*
-
 <!-- CONTRIBUTING -->
 ## Contribuição
 
