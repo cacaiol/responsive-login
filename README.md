@@ -49,7 +49,7 @@
 ## Sobre o Projeto
 
 <div align="center">
-<img src="" width="500px">
+<img src="https://user-images.githubusercontent.com/107950801/210680175-60958eef-9ac8-467f-8708-784cfad05125.png" width="350px">
 
 </div>
 <br/>
