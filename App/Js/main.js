@@ -7,7 +7,7 @@ const showHiddenPass = (inputPass, inputIcon) => {
             input.type = 'text'
 
             iconEye.classList.add('ri-eye-line')
-            iconEye.classList.remove('ri-eye-off-line')
+            iconEye.classList.remove('ri-eye-off-line') 
         }else {
             input.type = 'password'
             iconEye.classList.remove('ri-eye-line')
@@ -15,5 +15,5 @@ const showHiddenPass = (inputPass, inputIcon) => {
         }
     })      
 }
-
+    
 showHiddenPass('input-pass', 'input-icon')
